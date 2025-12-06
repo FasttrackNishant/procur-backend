@@ -1,0 +1,75 @@
+# ---------------------------
+# Node basics
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+
+# ---------------------------
+# Environment variables
+# ---------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore generated keys
+*.pem
+*.key
+*.crt
+
+# ---------------------------
+# Logs & temp files
+# ---------------------------
+logs/
+*.log
+*.log.*
+tmp/
+temp/
+.cache/
+.cache-loader/
+dist/
+build/
+
+# ---------------------------
+# OS / Editor stuff
+# ---------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---------------------------
+# Coverage / Debugging
+# ---------------------------
+coverage/
+.nyc_output/
+
+# ---------------------------
+# Uploaded files (optional)
+# ---------------------------
+uploads/
+public/uploads/
+uploads/*
+
+# ---------------------------
+# TypeScript (if later added)
+# ---------------------------
+*.tsbuildinfo
+
+# ---------------------------
+# ngrok (if config files exist)
+# ---------------------------
+.ngrok2/
+.ngrok/
+
+# ---------------------------
+# Docker (optional)
+# ---------------------------
+docker-data/
